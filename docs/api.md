@@ -62,7 +62,7 @@ metadata:
   name: claim1
 spec:
   pool:
-    Name: pool1
+    name: pool1
 ```
 
 The *spec* field contains the following :
@@ -82,9 +82,9 @@ metadata:
   name: pool1-192-168-0-13
 spec:
   pool:
-    Name: pool1
+    name: pool1
   claim:
-    Name: claim1
+    name: claim1
   address: 192.168.0.13
   prefix: 24
   gateway: 192.168.0.1
